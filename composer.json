@@ -1,0 +1,34 @@
+{
+    "name": "cuongp948/mypackage",
+    "description": "mypackage",
+    "keywords": [
+        "mypackage"
+    ],
+    "authors": [
+        {
+            "name": "cuongp948",
+            "email": "cuongp948@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Cuongp948\\Mypackage\\": "source/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+
+        ]
+    },
+    "scripts": {
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist"
+    }
+}
